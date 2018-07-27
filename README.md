@@ -9,7 +9,16 @@
 # Installation 
 
 1. `npm install screepsmod-tickrate` in your mods folder.
-2. Thats it!
+2. Edit your mods.json file to point to index.js such as:
+
+```
+  "mods": [
+    "node_modules\\screepsmod-tickrate\\index.js",
+  ],
+```
+
+3. Note due to https://github.com/screeps/screeps/issues/66, you will likely need to install my other mod https://github.com/ScreepsMods/screepsmod-mongo to increase the performance of the private server DB.
+
 
 # Usage
 1. Open the screeps server CLI
